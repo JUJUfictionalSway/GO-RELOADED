@@ -22,7 +22,7 @@ Followed by other functions namely:
 
 
 
-Func handleconv (inside the “base.go” file) – the logic here states that after closing in the spaces within open bracket and the number base, separate the string into sub-strings then find any substring thats a number base (i.e: (hex) or (bin)) and then convert the previous substring to the expected output-base (i.e: (decimal or binary)). In this program I am looking to transform only hexadecimal and binary number base to decimal number base, followed by an append expression that deletes the command after transformation. Our final return is a string-joined output.
+Func handleconv (inside the “base.go” file) – the logic here states that after closing in the spaces between open bracket and the number base, separate the string into sub-strings then find any substring thats a number base (i.e: (hex) or (bin)) and then convert the previous substring to the expected output-base (i.e: (decimal or binary)). In this program I am looking to transform only hexadecimal and binary number base to decimal number base, followed by an append expression that deletes the command after transformation. Our final return is a string-joined output.
 
 
 
